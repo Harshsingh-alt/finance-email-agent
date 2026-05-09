@@ -71,6 +71,16 @@ Streamlit Dashboard Output
 
 ---
 
+# LLM & Framework Choice
+
+The project uses GPT-3.5 Turbo through OpenRouter because it provides:
+- fast response generation
+- affordable/free API access
+- reliable text generation
+- easy integration with Python applications
+
+Streamlit was selected because it enables rapid dashboard development with minimal frontend complexity.
+
 # Installation
 
 ## Clone Repository
@@ -113,6 +123,10 @@ The dashboard displays:
 - Authentication system
 
 ---
+
+# Testing Mode
+
+This project runs in dry-run mode and does not send real emails to clients. It only generates sample AI-powered follow-up emails for demonstration and testing purposes.
 
 # Author
 
